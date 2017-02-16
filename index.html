@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="map-icons-master/dist/js/map-icons.js" type="text/javascript"></script>
+</head>
+<body>
+  <div id="main_wrapper" class="">
+
+    <div id="message_panel" class="">
+      <div class="inner_panel">
+        <h1 class="panel_header">What's On Your Mind?</h1>
+        <hr>
+        <input id="team_name" class="form-control" type="text" name="" value="" placeholder="Team Name">
+        <textarea id="message_area" class="form-control" name="name" rows="8" cols="80" placeholder="Your message here"></textarea>
+        <input id="submit_button" class="btn btn-large" type="submit" name="" value="Post">
+      </div>
+    </div>
+
+    <div id="map"></div>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcTuqXpzzZJ6z7ih1bFy-d60E8ow_aO0I&callback=initMap"></script>
+  <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
